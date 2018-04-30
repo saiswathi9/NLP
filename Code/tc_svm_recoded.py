@@ -16,8 +16,8 @@ from sklearn.metrics import classification_report
 import time
 start_time = time.time()
 #reading embedded datasets
-bot_s=pd.read_excel('S:/nlp/NLP/Data/recoded_botcompiledscores.xlsx').as_matrix()
-nonbot_s=pd.read_excel('S:/nlp/NLP/Data/recoded_nonbotcompiledscores.xlsx').as_matrix()
+bot_s=pd.read_excel('/home/sss26x/NLP/Data/recoded_botcompiledscores.xlsx').as_matrix()
+nonbot_s=pd.read_excel('/home/sss26x/NLP/Data/recoded_nonbotcompiledscores.xlsx').as_matrix()
 #bot_score=pd.read_excel('C:/Users/sivar/Desktop/recoded_results/recoded_nonbotscoring.xlsx').as_matrix()
 #nonbot_score=pd.read_excel('C:/Users/sivar/Desktop/recoded_results/recoded_botscoringv2.xlsx').as_matrix()
 #bot = np.concatenate((bot_score,bot_s))
